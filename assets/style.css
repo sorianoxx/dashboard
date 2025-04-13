@@ -1,0 +1,86 @@
+/* Importando fonte moderna e legível */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container principal do app */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #00FFC8;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+/* Gráfico */
+#Meu-Grafico {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 255, 200, 0.15);
+    /* height e width para torná-lo mais quadrado */
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+#Meu-Grafico:hover {
+    transform: scale(1.02);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    div {
+        padding: 1.5rem;
+    }
+
+    #Meu-Grafico {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    #Meu-Grafico {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    div {
+        padding: 1rem;
+    }
+}

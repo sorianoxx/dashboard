@@ -1,9 +1,6 @@
 import dash
 from dash import dcc, html
 
-app = dash.Dash(__name__)
-
-
 # Criando Aplicativo de Dashboard
 app = dash.Dash(__name__)
 
@@ -15,8 +12,8 @@ app.layout = html.Div(
             id='Meu-Grafico',
             figure={
                 'data': [  # Corrigido de 'Data' para 'data'
-                    {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'Bar chart'},
-                    {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'line', 'name': 'Line chart'}
+                    {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'Grafico de barras'},
+                    {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'line', 'name': 'Grafico de linhas'}
                 ],
                 'layout': {
                     'title': 'Titulo do Gráfico',
@@ -31,3 +28,4 @@ app.layout = html.Div(
 # Executar Aplicativo
 if __name__ == '__main__':
     app.run(debug=True)
+
