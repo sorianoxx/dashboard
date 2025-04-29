@@ -7,6 +7,16 @@ Este é um projeto simples de dashboard interativo criado com [Dash](https://das
 - Exibição de gráfico de barras e gráfico de linhas.
 - Layout responsivo com título e eixos personalizados.
 
+## 📈 Exemplo de Gráficos
+
+O dashboard exibe:
+
+- 📊 **Gráfico de barras**
+- 📈 **Gráfico de linhas**
+
+Ambos utilizando o mesmo eixo **X**: `[1, 2, 3]`
+
+
 ## 🖼️ Exemplo de Visualização
 
 ![Exemplo do Dashboard](https://github.com/user-attachments/assets/1256c051-281a-49d4-94a7-2131db66434e)
